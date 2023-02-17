@@ -1,0 +1,156 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+header{ 
+    height:150px;
+    background-color: rgb(53, 16, 84);
+ }
+
+#topo{
+	height:50px;
+	padding:10px;
+}
+#off{
+	color: white;
+	margin-left: 40px;
+}
+
+ #cabecalho{ 
+ 	height: 100px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+    background-color: rgb(88, 46, 132);
+ }
+
+#logo{
+	width:35%;
+}
+
+#buscar{
+   width:55%;
+}
+
+.buscador{
+	width:400px;
+	padding:10px;
+	border-radius:0.8em;
+	border: none;
+}
+
+#entrar{
+	width:10%;
+}
+
+.btn_entrar{
+	 color:white;
+	 font-weight:700;
+	 text-decoration:none;
+	 padding-right: 50px;
+}
+
+#logo img {
+	width:300px;
+}
+
+
+
+ #navigation{
+   height: 70px;
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+.menu{
+	color:black;
+	text-decoration:none;
+	padding: 10px 20px;
+	border-radius: 0.8em;
+}
+.menu:hover{
+	background-color: #f2f2f2;
+}
+
+
+
+
+		 #cards{
+			  	display: flex;
+			  	flex-direction: column;
+			  	height: 400px;
+			  	width: 250px;        
+		        border: 1px solid #f2f2f2;
+		        padding: 30px;
+		        transition: 0.2s;
+		      }
+ #cards:hover{
+ 	background-color: #f2f2f2;
+ 	box-shadow: 5px 1px 1px 1px rgba(0, 0, 0, 0.3);
+ }
+
+		 #produto{
+		 	display: flex;
+		 	justify-content: center;
+			box-sizing: border-box;
+			background-color:#f2f2f2;
+		    padding: 10px;
+		 }
+
+		 #produto img{
+		   width: 200px;
+		   border-radius: 50%;
+		 } 
+
+
+		 #desc{
+		  padding: 10px;
+		 }
+
+
+		 #News{
+		     background-color: rgb(240, 0, 155);
+		     text-decoration: none;
+		    color: white;
+		    padding: 5px 20px;
+		   font-size: 12px;
+		  font-weight: 700;
+		}
+
+		     h3{
+		     	padding-top: 10px;
+		     	padding-bottom: 10px;
+		     }
+
+		    #preco{
+		    	color:rgb(19, 171, 225);
+		    	font-weight: 700;
+		    }
+		    #principal{
+		    	padding: 20px;
+		    	height: 900px;
+		    	display: flex;
+		    	justify-content: space-evenly;
+		    	flex-wrap: wrap;
+		    }
+
+
+		    footer{
+		    	background-color: #f2f2f2;
+		    	height: 300px;
+		    	display: flex;
+		    	align-items: flex-end;
+		    	justify-content: center;
+		    }
+
+		     footer p{
+		     	padding-bottom: 50px;
+		     }
+
+
